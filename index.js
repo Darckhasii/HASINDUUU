@@ -100,13 +100,13 @@ async function connectToWA() {
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20cs.jpg`,
+          url: `https://raw.githubusercontent.com/Darckhasii/whallpepars/refs/heads/main/WhatsApp%20Image%202025-01-23%20at%2019.52.37_bc1acb98.jpg`,
         },
         caption: up,
       });
-      robin.sendMessage("94705900209@s.whatsapp.net", {
+      Hasindu MD.sendMessage("940729356513.whatsapp.net", {
         image: {
-          url: `https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20cs.jpg`,
+          url: `https://raw.githubusercontent.com/Darckhasii/whallpepars/refs/heads/main/WhatsApp%20Image%202025-01-23%20at%2019.52.37_bc1acb98.jpg`,
         },
         caption: up1,
       });
@@ -395,7 +395,7 @@ async function connectToWA() {
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, ❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ started✅");
+  res.send("hey, [⚚ 𝐇𝐀𝐒𝐈𝐍𝐃𝐔 𝐌𝐃 🥷] started✅");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
