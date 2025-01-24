@@ -61,7 +61,7 @@ async function connectToWA() {
   const prefix = config.PREFIX;
   //===========================
 
-  console.log("Connecting ❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️");
+  console.log("Connecting[⚚𝐇𝐀𝐒𝐈𝐍𝐃𝐔 𝐌𝐃 🥷] ");
   const { state, saveCreds } = await useMultiFileAuthState(
     __dirname + "/auth_info_baileys/"
   );
@@ -92,11 +92,11 @@ async function connectToWA() {
           require("./plugins/" + plugin);
         }
       });
-      console.log("❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ installed successful ✅");
-      console.log("❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ connected to whatsapp ✅");
+      console.log("⚚𝐇𝐀𝐒𝐈𝐍𝐃𝐔 𝐌𝐃 🥷 installed successful ✅");
+      console.log("⚚𝐇𝐀𝐒𝐈𝐍𝐃𝐔 𝐌𝐃 🥷 connected to whatsapp ✅");
 
-      let up = `❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ connected successful ✅`;
-      let up1 = `Hello Robin, I made bot successful`;
+      let up = `⚚𝐇𝐀𝐒𝐈𝐍𝐃𝐔 𝐌𝐃 🥷 connected successful ✅`;
+      let up1 = `Hello Hasindu, I made bot successful`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
